@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.1](https://github.com/yehezkieldio/stunning-tribble/compare/0.1.0..0.1.1) - 2026-01-30
+
+### 📇 Features
+
+- *(main)* Add user greeting and name prompt functions - ([9788af8](https://github.com/yehezkieldio/stunning-tribble/commit/9788af896238a9b1b9a5c2bd4c83433172085d96))
+- Add doc comment to greet_user function - ([4dca2e5](https://github.com/yehezkieldio/stunning-tribble/commit/4dca2e5425644a336ed5e237c225367f45cad743))
+- Add greeting - ([87a8c09](https://github.com/yehezkieldio/stunning-tribble/commit/87a8c09a3deecb606bfa7f13cc9f2ba4193ddc0a))
+
+### ⚙️ Miscellaneous Tasks
+
+- *(config)* Add git_only flag to release-plz configuration - ([d0d28fb](https://github.com/yehezkieldio/stunning-tribble/commit/d0d28fbabac4f11747e0a0abfa1a003fba2e2cfe))
+- *(config)* Disable publishing in Cargo and release-plz configs - ([1d9f094](https://github.com/yehezkieldio/stunning-tribble/commit/1d9f094a54dcaa46843c52a5963ba00c88cdd59a))
+- *(config)* Update release commit pattern in release-plz.toml - ([d1fd8ce](https://github.com/yehezkieldio/stunning-tribble/commit/d1fd8ce8190118758d6ce6f2610e16842940b0de))
+- *(config)* Add release commits pattern for feat type - ([fcc1866](https://github.com/yehezkieldio/stunning-tribble/commit/fcc1866c1b93d0479e3bcb85824bb274de015e3e))
+- Remove publish setting from Cargo.toml - ([81b6636](https://github.com/yehezkieldio/stunning-tribble/commit/81b66361d2183a6d59a16f3b1e56ce6fe05cc448))
+
+
 ## [0.1.0] - 2026-01-30
 
 ### 📇 Features
