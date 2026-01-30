@@ -9,7 +9,6 @@ pr_labels = ["release"]
 publish_allow_dirty = true
 semver_check = false
 release_always = false
-release_commits = "^feat[(:]"
 publish = false
 git_only = true
 

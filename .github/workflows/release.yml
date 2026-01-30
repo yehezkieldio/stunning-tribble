@@ -261,13 +261,12 @@ jobs:
             - uses: actions/setup-node@v6
               with:
                   node-version: 24
-                  cache: "npm"
                   registry-url: "https://registry.npmjs.org"
             - run: npm install -g npm@latest
             - run: |
                   for release in $(echo "$PLAN" | jq --compact-output '.releases[] | select([.artifacts[] | endswith("-npm-package.tar.gz")] | any)'); do
                     pkg=$(echo "$release" | jq '.artifacts[] | select(endswith("-npm-package.tar.gz"))' --raw-output)
-                    npm publish --access public "./npm/${pkg}"
+                    npm publish --provenance --access public "./npm/${pkg}"
                   done
 
     announce:
