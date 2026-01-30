@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.3](https://github.com/yehezkieldio/stunning-tribble/compare/0.1.2..0.1.3) - 2026-01-30
+
+### 📇 Features
+
+- *(core)* Add welcome message to greet_user function - ([308de2b](https://github.com/yehezkieldio/stunning-tribble/commit/308de2b289c64af9bde69db8432e6a587e92c4b0))
+
+### ⚙️ Miscellaneous Tasks
+
+- *(ci)* Add provenance flag to npm publish in release workflow - ([474c8a3](https://github.com/yehezkieldio/stunning-tribble/commit/474c8a3aa5ca4175bee1d6d2752d8c9b8523891f))
+
+
 ## [0.1.2](https://github.com/yehezkieldio/stunning-tribble/compare/0.1.1..0.1.2) - 2026-01-30
 
 ### 📇 Features
