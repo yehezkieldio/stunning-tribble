@@ -11,6 +11,7 @@ semver_check = false
 release_always = false
 release_commits = "^feat[(:]"
 publish = false
+git_only = true
 
 [[package]]
 name = "stunning-tribble"
