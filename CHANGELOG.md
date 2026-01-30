@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.2](https://github.com/yehezkieldio/stunning-tribble/compare/0.1.1..0.1.2) - 2026-01-30
+
+### 📇 Features
+
+- Remove ask_name - ([f141e92](https://github.com/yehezkieldio/stunning-tribble/commit/f141e92b7036179334a995fb3d7369cb6a4fd7db))
+
+### ⚙️ Miscellaneous Tasks
+
+- *(ci)* Update release workflow and node setup steps - ([f14eedf](https://github.com/yehezkieldio/stunning-tribble/commit/f14eedff85441cbc80238cad281518951cb7cefc))
+
+
 ## [0.1.1](https://github.com/yehezkieldio/stunning-tribble/compare/0.1.0..0.1.1) - 2026-01-30
 
 ### 📇 Features
