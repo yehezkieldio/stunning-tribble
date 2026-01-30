@@ -1,5 +1,4 @@
-use anyhow::{Context, Result};
-use std::io::{self, Write};
+use anyhow::Result;
 
 /// Greets the user with a welcome message.
 fn greet_user() -> Result<()> {
@@ -8,19 +7,7 @@ fn greet_user() -> Result<()> {
     Ok(())
 }
 
-fn ask_name() -> Result<String> {
-    print!("What is your name? ");
-    io::stdout().flush().context("Failed to flush stdout")?;
-    let mut name = String::new();
-    io::stdin()
-        .read_line(&mut name)
-        .context("Failed to read line from stdin")?;
-    Ok(name.trim().to_string())
-}
-
 fn main() -> Result<()> {
     greet_user()?;
-    let name = ask_name()?;
-    println!("Nice to meet you, {}!", name);
     Ok(())
 }
