@@ -4,6 +4,7 @@ use anyhow::Result;
 fn greet_user() -> Result<()> {
     println!("Hello, world!");
     println!("How are you?");
+    println!("Welcome to Rust programming!");
     Ok(())
 }
 
