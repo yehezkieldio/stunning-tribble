@@ -1,0 +1,15 @@
+[package]
+name = "stunning-tribble"
+version = "0.1.2"
+edition = "2024"
+repository = "https://github.com/yehezkieldio/stunning-tribble"
+
+[[bin]]
+name = "stunning-tribble"
+path = "src/main.rs"
+
+[dependencies]
+
+[profile.dist]
+inherits = "release"
+lto = "thin"
