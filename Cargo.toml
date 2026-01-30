@@ -3,6 +3,7 @@ name = "stunning-tribble"
 version = "0.1.0"
 edition = "2024"
 repository = "https://github.com/yehezkieldio/stunning-tribble"
+publish = false
 
 [[bin]]
 name = "stunning-tribble"
