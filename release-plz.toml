@@ -9,7 +9,7 @@ pr_labels = ["release"]
 publish_allow_dirty = true
 semver_check = false
 release_always = false
-release_commits = "^feat:"
+release_commits = "^feat[(:]"
 
 [[package]]
 name = "stunning-tribble"
