@@ -9,6 +9,7 @@ jobs:
     release-plz-pr:
         name: Release-plz PR
         runs-on: ubuntu-latest
+        if: github.repository == 'yehezkieldio/stunning-tribble-disabled'
         permissions:
             contents: write
             pull-requests: write
