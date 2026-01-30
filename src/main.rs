@@ -1,6 +1,7 @@
 use anyhow::{Context, Result};
 use std::io::{self, Write};
 
+/// Greets the user with a welcome message.
 fn greet_user() -> Result<()> {
     println!("Hello, world!");
     println!("How are you?");
